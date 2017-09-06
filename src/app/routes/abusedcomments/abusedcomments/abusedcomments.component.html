@@ -1,0 +1,28 @@
+<div class="content-heading">Abused Comments</div>
+<!-- START row-->
+<div class="col-md-12">
+    <!-- START box placeholder-->
+    <div class="box-placeholder">
+        <!-- START button group-->
+        <div class="btn-group" dropdown>
+            <button class="btn btn-default" dropdownToggle>Abused Comments Action <b class="caret"></b>
+            </button>
+            <ul *dropdownMenu class="dropdown-menu animated fadeIn" role="menu">
+                <li><a href="#">Action</a>
+                </li>
+                <li><a href="#">Another action</a>
+                </li>
+                <li><a href="#">Something else here</a>
+                </li>
+                <li><a href="#">Separated link</a>
+                </li>
+            </ul>
+        </div>
+        <!-- END button group-->
+    </div>
+    <!-- END box placeholder-->
+</div>
+<!-- END panel tab-->
+<h4 class="page-header mt0">Basic Example</h4>
+<ag-grid-angular #agGrid class="ag-angle" style="width: 100%; height: 400px" [gridOptions]="gridOptions" (gridReady)="gridReady($event)">
+</ag-grid-angular>
